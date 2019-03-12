@@ -1,0 +1,63 @@
+@import url(https://fonts.googleapis.com/css?family=Droid+Sans+Mono|Pacifico|Oxygen);
+
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	background-color: darkkhaki;
+}
+.container h3{
+  font-family: Pacifico;
+  font-size: 20px;
+
+}
+.container{
+	width:350px;
+	position: relative;
+	margin:50px auto;
+	border:1px solid black;
+	border-radius: 25px;
+	box-shadow: 2px 4px 14px black;
+	background-color: #444;
+	padding:10px;
+  font-family: 'Oxygen';
+  	
+
+}
+.screen{
+	width:90%;
+	height:40px;
+	line-height: 40px;
+	border-radius: 10px;
+	border:1px solid grey;
+	margin:0 auto;
+	background-color: #aaa;
+	margin-top: 10px;
+	padding:5px;
+	text-align: right;
+    font-size: 2em;
+  font-family: Droid Sans Mono;
+	
+}
+.col-row{
+	width:100%;
+	margin:20px auto;
+	text-align: center;
+}
+.col-row .button{
+	 text-align: center;
+  display: inline-block;
+  font-weight: bold;
+  border: 1px solid #555;
+  background-color: #eee;
+  padding: 10px 0;
+  margin: 7px 5px;
+  border-radius: 15px;
+  box-shadow: 2px 2px 1px 1px #222;
+  width: 50px;
+  cursor: pointer;
+}
+.col-row .zero{
+	width:112px;
+}
